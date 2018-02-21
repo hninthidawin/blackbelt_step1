@@ -2,6 +2,6 @@ Sessions_Attended = {'sessions' : '1011,2344,3222,44322,555,6332,721,8789,99,101
 
 sessions = Sessions_Attended["sessions"].split(",")
 for i in range(1, len(sessions)):
-	print "I have attended %s sessions!!"%sessions[i]
+	print("I have attended %s sessions!!"%sessions[i])
 
-print "I have attended %d sessions!!"%len(sessions)
+print("I have attended %d sessions!!"%len(sessions))
