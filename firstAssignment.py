@@ -4,4 +4,4 @@ sessions = Sessions_Attended["sessions"].split(",")
 for i in range(1, len(sessions)):
 	print("I have attended %s sessions!!"%sessions[i])
 
-print("I have attended %d sessions!!"%len(sessions))
+print("---------I have attended %d sessions!!"%len(sessions))
